@@ -32,7 +32,7 @@ engine = create_engine(f'postgresql://{usuario}:{senha}@{host}:{porta}/{banco}',
 
 import  pyodbc
 
-cnxn = pyodbc.connect('DRIVER={SQL Server};SERVER=mqazure.database.windows.net,1433;DATABASE=BancoContatos;UID=leitura@mqazure;PWD=mq!@#2023')
+cnxn = pyodbc.connect('')
 cursor = cnxn.cursor()
 
 
